@@ -40,8 +40,9 @@ this.health = health - damage;
     return 0;
   } else{ return 1; }
 
-  System.out.println("This will never be printed, beause I returned beforehand already");
-}
+ //  System.out.println("This will never be printed, beause I returned beforehand already");
+
+  }
 
   // ANOTHER METHOD
   public void sayHello() {
