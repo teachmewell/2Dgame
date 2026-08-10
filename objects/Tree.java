@@ -4,7 +4,7 @@ public class Tree{
 int health;
 
 public Tree(){
-this.health = 100;
+this.health = 10;
 }
 
 public Tree(int healthToHave){
