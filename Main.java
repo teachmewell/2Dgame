@@ -9,6 +9,9 @@ board.createEnvironment();
     Player player1 = new Player();
 Player player2 = new Player(); //create two objects of TYPE Player. 
 
+    player1.sayHello();
+player2.sayHello();
+    
         player1.healthminus(500); //do a method on ONE OF THE OBJECTS only. 
 
     if(player2.healthminus(700) == 0){ //you can use the return values to check if healthminus killed a player
