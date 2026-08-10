@@ -16,13 +16,13 @@ this.fullBoard = new int[width][height];
 }
 
 public void createEnvironment(){
-  for (int height = 0; height < fullBoard[].length(); height++){
+  for (int height = 0; height < fullBoard[0].length(); height++){
 for(int width = 0; width < fullBoard.length(); width++){
 if(Math.random()> 0.7){ this.treeBoard[width][height] = new Tree(); fullBoard[width][height] = 1;}
 }  
 }
   
-for (int height = 0; height < fullBoard[].length(); height++){
+for (int height = 0; height < fullBoard[0].length(); height++){
 for(int width = 0; width < fullBoard.length(); width++){
   if(treeBoard[width][height] == null){
 if(Math.random()> 0.7){ this.rockBoard[width][height] = new Rock(); fullBoard[width][height] = 1;}
