@@ -19,7 +19,7 @@ class Player {
   // the "this" keyword refers to the object itself.  See what I mean below.
   // CONSTRUCTOR; AKA WHAT HAPPENS WHEN YOU CREATE A NEW OBJECT OF THIS CLASS
   public Player(){
-    this.id = static counter++;
+    this.id = counter++;
     this.health = 1000;
   }
 
