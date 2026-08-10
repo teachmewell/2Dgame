@@ -55,3 +55,5 @@ public int getHealth(){
 
 //using this knowledge, you can now know how to write code such that every member inside the class can do something. 
 // To create an object, the main Method will use the keyword new to make one. (example: Player name = new Player(); )  the first Player is a type, as seen by it not having (). We assign name to be the pointer to our new Player() object. 
+
+//Example inside Main.java
