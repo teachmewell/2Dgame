@@ -1,13 +1,13 @@
 package objects;
 
-public class Rocks{
+public class Rock{
 int health;
 
 public Rock(){
 this.health = 100;
 }
 
-public Tree(int healthToHave){
+public Rock(int healthToHave){
 this.health = healthToHave;
 }
 
