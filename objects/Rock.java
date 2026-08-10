@@ -15,7 +15,9 @@ public int steppedon(){
 this.health = health -1;
 if(health <= 0){
 // Board.destruct();  //calls the Board class and lets it remove the tree
- }
+return 0; 
+}
+ return 1:
 }
 
 }
